@@ -9,7 +9,7 @@ import os
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://teletai-togridis.vercel.app"  # άλλαξέ το όταν μπει domain
+SITE = "https://togridisilioypoli.vercel.app"  # άλλαξέ το όταν μπει domain
 TODAY = date.today().isoformat()
 
 BIZ = {
