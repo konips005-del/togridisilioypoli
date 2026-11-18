@@ -655,3 +655,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; letter-spacing: 0; }
 .office.office-wide .map { aspect-ratio: 21 / 8; }
 @media (max-width: 760px) { .office.office-wide .map { aspect-ratio: 4 / 3; } }
 .trust .hide-trust { display: none; }
+
+/* Πρόσοψη γραφείου: κάθετη φωτογραφία, να φαίνεται ολόκληρη η ταμπέλα */
+.split .photo.storefront { min-height: 0; aspect-ratio: 4 / 5; width: min(100%, 520px); margin-inline: auto; }
