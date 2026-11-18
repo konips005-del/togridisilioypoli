@@ -534,7 +534,7 @@ home_body = f"""<section class="hero hero-plaque">
 <section class="section alt">
   <div class="wrap split">
     <div class="about-visual">
-      {photo("Ο Λάζαρος Τογρίδης", src="lazaros-togridis.jpg", pos="center 30%")}
+      {photo("Ο Λάζαρος Τογρίδης", cls="storefront", src="lazaros-togridis-2.jpg", pos="center 12%")}
     </div>
     <div>
       <h2 class="section-title">Λίγα λόγια για εμάς</h2>
