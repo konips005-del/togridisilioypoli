@@ -3,13 +3,13 @@
    ========================================================= */
 :root {
   --bg: #ffffff;
-  --alt: #f5f4f1;
+  --alt: #f6f6f5;
   --ink: #1e1e20;
   --ink-2: #333336;
   --muted: #5d5c5a;
   --line: #e2e0db;
-  --green: #2b2b2e;
-  --green-2: #161618;
+  --green: #5c5d62;
+  --green-2: #46474c;
   --green-soft: #eeede9;
   --silver: #a7a7ac;
   --font: "Commissioner", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
@@ -336,7 +336,7 @@ a.contact-card:hover { border-color: var(--green-2); }
 @media (max-width: 760px) { .offices { grid-template-columns: 1fr; } .office-info { flex-wrap: wrap; } .office-info .btn { width: 100%; } }
 
 /* ---------- Footer ---------- */
-.site-footer { background: #1c1c1e; color: rgba(255,255,255,.7); padding: 64px 0 0; font-size: 15px; }
+.site-footer { background: #4a4b50; color: rgba(255,255,255,.7); padding: 64px 0 0; font-size: 15px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 40px; padding-bottom: 48px; }
 .site-footer .brand-name { color: #fff; }
 .site-footer .brand-sub { color: rgba(255,255,255,.6); }
@@ -538,7 +538,7 @@ html.js .rv.in.tilt { transition: transform .3s ease-out, opacity .7s ease, box-
 h1, h2, h3 { font-family: var(--serif); font-weight: 500; letter-spacing: 0; }
 .service-card h3, .feature h3, .dd-menu strong, .contact-card strong, .office-info strong, .hero-facts strong, .step h3, .value h3, .timeline h3, .side-card h3 { font-family: var(--serif); }
 .btn { border-radius: 0; letter-spacing: .02em; }
-.topbar { background: linear-gradient(90deg, #1c1c1e, #3a3a3e 50%, #1c1c1e); }
+.topbar { background: linear-gradient(90deg, #505156, #6b6c71 50%, #505156); }
 .brand-mark { width: 64px; }
 .brand-name { font-family: var(--serif); font-weight: 600; letter-spacing: .08em; color: var(--green); }
 .brand-sub { font-family: var(--font); text-transform: none; letter-spacing: .02em; color: var(--muted); font-size: 13px; }
@@ -574,9 +574,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; letter-spacing: 0; }
 .side-card.dark { padding: 30px 28px; }
 
 /* Hero: κεντραρισμένη «πλακέτα» πάνω σε ασπρόμαυρη φωτογραφία */
-.hero.hero-plaque { background: #1c1c1e; padding: 96px 0 104px; }
+.hero.hero-plaque { background: #5a5b60; padding: 96px 0 104px; }
 .hero-plaque .hero-bg img { filter: grayscale(1) contrast(1.05); }
-.hero-plaque .hero-bg::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(20,20,22,.55) 0%, rgba(20,20,22,.82) 70%, rgba(20,20,22,.9) 100%); }
+.hero-plaque .hero-bg::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(70,71,76,.35) 0%, rgba(70,71,76,.6) 70%, rgba(70,71,76,.72) 100%); }
 .hero-plaque .wrap { display: flex; justify-content: center; }
 .plaque {
   --frame: #b8b7b2; --c: 34px;
@@ -599,7 +599,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; letter-spacing: 0; }
 .plaque-phones svg { width: 18px; height: 18px; color: var(--muted); }
 .plaque .hero-actions { justify-content: center; margin-bottom: 22px; }
 .hero .plaque .btn-primary { background: var(--green); color: #fff; }
-.hero .plaque .btn-primary:hover { background: #000; }
+.hero .plaque .btn-primary:hover { background: var(--green-2); }
 .hero .plaque .btn-ghost { color: var(--ink); border-color: #bdbcb7; background: transparent; }
 .hero .plaque .btn-ghost:hover { border-color: var(--ink); }
 .plaque-addr { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
@@ -638,7 +638,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; letter-spacing: 0; }
 .split .section-title::after { width: 56px; height: 1px; background: var(--silver); }
 
 /* Βήματα σε ανθρακί, με ρωμαϊκή αρίθμηση */
-.section.dark { background: #232326; }
+.section.dark { background: #55565b; }
 .step { border-radius: 0; background: transparent; border: 0; border-left: 1px solid rgba(255,255,255,.18); padding: 4px 0 4px 22px; }
 .step::before { content: counter(s, upper-roman) "."; width: auto; height: auto; border-radius: 0; background: none; color: var(--silver); font-family: var(--serif); font-size: 30px; font-weight: 400; display: block; margin-bottom: 10px; }
 
@@ -647,7 +647,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; letter-spacing: 0; }
 .areas span.main { background: var(--green); }
 .photo { border-radius: 0; background: #e9e8e4; }
 .value, .feature, .side-card, .contact-card, .office, .map, .note, .service-card { border-radius: 0; }
-.cta-band { --frame: rgba(255,255,255,.25); background: linear-gradient(135deg, #2b2b2e, #18181a); }
+.cta-band { --frame: rgba(255,255,255,.25); background: linear-gradient(135deg, #6a6b70, #4e4f54); }
 .page-hero { background: linear-gradient(180deg, #f5f4f1, #ecebe7); }
 .page-hero h1 { font-weight: 500; }
 .lt-code { color: var(--green); }

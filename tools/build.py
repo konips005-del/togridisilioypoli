@@ -232,7 +232,7 @@ def head(path, title, desc, ld):
   <title>{esc(full_title)}</title>
   <meta name="description" content="{esc(desc)}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
-  <meta name="theme-color" content="#2b2b2e">
+  <meta name="theme-color" content="#5c5d62">
   <link rel="canonical" href="{url(path)}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="el_GR">
