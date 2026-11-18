@@ -240,20 +240,20 @@ def head(path, title, desc, ld):
   <meta property="og:title" content="{esc(full_title)}">
   <meta property="og:description" content="{esc(desc)}">
   <meta property="og:url" content="{url(path)}">
-  <meta property="og:image" content="{url('/og-image.png')}?v=1">
+  <meta property="og:image" content="{url('/og-image.png')}?v=2">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Τελεταί Τογρίδη · Ηλιούπολη, 24/7">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{esc(full_title)}">
   <meta name="twitter:description" content="{esc(desc)}">
-  <meta name="twitter:image" content="{url('/og-image.png')}?v=1">
+  <meta name="twitter:image" content="{url('/og-image.png')}?v=2">
   <meta name="format-detection" content="telephone=no">
-  <link rel="icon" href="/favicon.ico?v=1" sizes="48x48">
-  <link rel="icon" href="/favicon.svg?v=1" type="image/svg+xml">
-  <link rel="icon" href="/favicon-96.png?v=1" sizes="96x96" type="image/png">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="icon" href="/favicon-96.png?v=2" sizes="96x96" type="image/png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=1">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=Noto+Serif+Display:wght@400;500;600&display=swap" rel="stylesheet">
